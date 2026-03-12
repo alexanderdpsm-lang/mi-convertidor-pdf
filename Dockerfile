@@ -12,4 +12,5 @@ COPY . /app
 RUN pip install flask flask-cors
 
 # Iniciamos el servidor
+
 CMD ["python", "app.py"]
